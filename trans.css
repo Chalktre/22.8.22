@@ -1,0 +1,37 @@
+.line {
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    width: 1000px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.out {
+    position: absolute;
+    /* float: left; */
+    width: 400px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+
+.in {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    transition: all 0.5s;
+    border-radius: 7px;
+}
+
+.in:hover {
+    width: 400px;
+}
+
+p {
+    position: absolute;
+    /* margin-top: 40px; */
+    vertical-align: middle;
+    /* float: left; */
+}

@@ -1,0 +1,33 @@
+/* ul li:nth-child(1) {
+    color: pink;
+    list-style: none;
+} */
+
+.box {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 45px;
+    background-color: gray;
+}
+
+.box a {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    line-height: 45px;
+    text-indent: 1em;
+}
+
+.box::after {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 5px;
+    font-family: 'icomoon';
+    content: "\ea3c";
+}
